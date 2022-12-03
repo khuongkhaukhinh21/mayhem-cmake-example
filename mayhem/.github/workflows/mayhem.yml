@@ -31,8 +31,8 @@ matrix.build_type }}'
         uses: docker/login-action@v2.1.0
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ khuongkhaukhinh21 }}
+          password: ${{ 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 }}
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
